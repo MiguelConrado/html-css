@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{background-attachment: fixed;}
+
+body{
+    background-image: linear-gradient(to right,#F2D9BB,#D9AE89);
+    }
+main{
+    background-color: azure;
+    font-family: sans-serif;    
+    width: 750px;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px #8a593e;
+}
+#principal{
+    text-align: center;
+}
+h1{
+    color: #8C3F23;
+}
+h2{
+    color: #BF7B54;
+    font-style: italic;
+}
+.basico{
+    color: #ad704d83;
+}
+.intermediario{
+    color: #ad704dd3;
+}
+.avançado{
+    color: #ad704d;
+}
+
+
