@@ -76,10 +76,13 @@ section{
     background-color: rgba(0, 0, 0, 0.575);
     color: white;
     padding: 50px;
+    box-shadow: inset 7px 7px 13px 0px rgba(0, 0, 0, 0.473);
+    
     & p{
         padding: 10px;
         display: inline-block;
-        background-color: rgba(0, 0, 0, 0.486);
+        background-color: rgba(0, 0, 0, 0.562);
+        text-shadow: 2px 2px 0px black;
     }
 }
 #joaninha{
