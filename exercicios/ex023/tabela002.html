@@ -18,22 +18,32 @@
     table{
         width: 500px;
         border-collapse: collapse;
+        position: relative;
     }
     td, th{
         border: solid 1px black;
         padding: 10px;
     }
-    tbody > tr:nth-child(2n){
-        background-color: lightgray;
+    
+    tbody > tr:nth-child(even){
+        background-color: lightblue;
+    } 
+    tbody > tr:nth-child(odd){
+        background-color: rgb(164, 164, 255);
     }
     
     td.num{
         text-align: right;
     }
-    
     thead{
         background-color: darkgray;
         color: white;
+        
+        & th{
+            position: sticky;
+            top: -1px;
+            background-color:darkgray ;
+        }
     }
     tfoot{
         font-weight: bold;
@@ -44,7 +54,6 @@
     }
 
 </style>
-
 </head>
 <body>
      <!-- Anatomia para tabela grande 
@@ -175,12 +184,14 @@
         
         <tfoot>
             <tr>
-                <th scope="">Total de Habitantes</th>
+                <th scope="col ">Total de Habitantes</th>
                 <td>210.147.125</td>
             </tr>
         </tfoot>
-    
     </Table>
+
+    <p style="margin-top: 1000px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio nam id velit, voluptates laboriosam quos earum ad natus facere veritatis aliquam adipisci odio libero! Quo explicabo ipsum quisquam tenetur numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio iure ad rerum doloribus? Iure delectus voluptatibus consectetur fugit sunt dolor reiciendis dicta culpa commodi inventore. Aliquam laudantium totam dignissimos nesciunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ab iste cupiditate facere quasi itaque sit quia ipsa? Doloribus temporibus, aut nam maxime necessitatibus recusandae quae voluptatum officiis nostrum dignissimos? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, nesciunt? Quibusdam, maiores eum? Eaque quisquam adipisci libero delectus ab repellendus consequatur quia corrupti sapiente? Minima quasi provident sit repudiandae temporibus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur dolore dolorem sed dignissimos laudantium repellendus aut, vel nesciunt commodi possimus reiciendis provident! Id aliquam deleniti veritatis voluptates impedit, laborum saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita dignissimos est consectetur, corrupti ea aspernatur! Illo corporis, error unde delectus possimus recusandae voluptate consectetur ipsa? Quis, atque at? Minima, cumque.</p>
+
 
 <script src="sript.js"></script>
 </body>

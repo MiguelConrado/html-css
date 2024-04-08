@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+
+}
+
+button{
+    border-radius: 20px;
+    border-color: transparent;
+
+    width: 120px;
+    height: 30px;
+
+    background-color: rgb(212, 212, 212);
+    color: black;
+
+    margin-top: 20px;
+
+    transform: translate(0px);
+}
+button:hover{
+    background-color: rgba(128, 128, 128, 0.445);
+    
+}
