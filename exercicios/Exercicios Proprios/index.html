@@ -9,13 +9,19 @@
         border:solid 1px black;
         padding: 10px;
         text-align: center;
+        border-collapse: collapse;
     }
+    tr{
+        border-collapse: collapse;
+    }
+    
     th{
         color: black;
         font-size: larger;
     }
     td{
         border:solid 1px black;
+        border-collapse: collapse;
     }
 </style>
 
@@ -39,14 +45,14 @@
         <tr class="tr-25%">
             <th>25% Gays</th>
             <td class="25%">Taylor</td>
-            <td class="25%">Pedra</td>
-            <td class="25%">José Matheus</td>
+            <td class="25%">Pedro</td>
+            <td class="25%" colspan="2">José Matheus</td>
         </tr>
         <tr class="tr-0%">
             <th>0% Gays</th>
             <td class="0">Miguel</td>
             <td class="0">Marcos</td>
-            <td class="0">Thales (otavio)</td>
+            <td class="0" colspan="2">Thales (otavio)</td>
         </tr>
     </table>
 </body>
