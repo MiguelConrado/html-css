@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    height: 100%; /* Garante que o corpo e o HTML ocupem toda a altura da viewport */
+}
+
+section#img{
+    & img{
+        width: 100vw;
+    }
+}
+
+#acessar{
+        background-color:rgb(82, 3, 3);
+        & a{
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+    }
