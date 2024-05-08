@@ -3,7 +3,7 @@
 
 Estou aprendendo a criar sites com HTML e CSS
 
-<a href="[text](https://miguelconrado.github.io/html-css/exercicios/DESAFIOS/d001/desafio%20010/android.html)">
+<a href="https://miguelconrado.github.io/html-css/exercicios/DESAFIOS/d001/desafio%20010/android.html">
 Desafio 010
 </a>
 
