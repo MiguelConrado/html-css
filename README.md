@@ -7,6 +7,6 @@ Estou aprendendo a criar sites com HTML e CSS
 Desafio 010
 </a>
 
-<a href="[text](https://miguelconrado.github.io/html-css/exercicios/ex026/imagens/mq002/index.html)">
+<a href="https://miguelconrado.github.io/html-css/exercicios/ex026/imagens/mq002/index.html">
 Exercicios 026
 </a>
