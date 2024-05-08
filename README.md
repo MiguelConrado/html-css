@@ -8,5 +8,5 @@ Desafio 010
 </a>
 
 <a href="[text](https://miguelconrado.github.io\estudos\html-css\exercicios\ex026\imagens)">
-EX 026
+Ex 026
 </a>
