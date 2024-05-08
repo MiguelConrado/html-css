@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* ESTILO PARA IMPRESSORAS*/
+
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+}
+header > h1{
+   color: aquamarine;
+   text-align: center;
+}
+article{
+    width: 100vw;
+    text-align: justify;
+}
+article::after{
+    content: "Esse Artigo foi impresso atraves do Miguel Conrado Da Silva Calor (LINDÃO)";
+    color: aquamarine;
+}
