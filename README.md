@@ -11,7 +11,7 @@ Desafio 010
 Exercicios 026
 </a>
 
-<a href="https://miguelconrado.github.io/html-css/exercicios/ex026/imagens/mq006/index.html">
+<a href="https://miguelconrado.github.io/html-css/exercicios/ex026/imagens/mq005/index.html">
 Exercicios 026 
-ADAPTANDO SITES
+ADAPTANDO SITE
 </a>
