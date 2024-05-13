@@ -7,11 +7,11 @@ Estou aprendendo a criar sites com HTML e CSS
 Desafio 010
 </a>
 
-<a href="https://miguelconrado.github.io/html-css/exercicios/ex026/imagens/mq002/index.html">
+<a href="https://miguelconrado.github.io/html-css/exercicios/ex026/mq002/index.html">
 Exercicios 026
 </a>
 
-<a href="https://miguelconrado.github.io/html-css/exercicios/ex026/imagens/mq005/index.html">
+<a href="https://miguelconrado.github.io/html-css/exercicios/ex026/mq005/index.html">
 Exercicios 026 
 ADAPTANDO SITE
 </a>
