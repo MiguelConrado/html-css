@@ -9,7 +9,7 @@
 
     <title>Media Query</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
@@ -59,6 +59,12 @@
             itens.style.display = 'block'
         }
 
+        }
+
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }
         }
     </script>
 </body>
