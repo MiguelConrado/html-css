@@ -5,71 +5,46 @@
 @media (min-width:0px) and (max-width: 600px) {
     header{
         & h1{
-            font-size: 30px;
+            font-size: 35px;
             margin: 0px auto 5px auto;
         }
     } 
-    menu{
+        menu{
         display: none;
     }
-    main{
+        main{
         & p{
-        font-size: 16px;
+        font-size: 17px;
     }
 }
 
 }
-
-
-/* CELULAR */
-@media (min-width:600px) and (max-width:768px){
-    
-    header{
-        & h1{
-            font-size: 40px;
-        }
-    }
-    menu{
-        display: none;
-    }
-    main {
-        & h2{ 
-            font-size: 20px;
-        }
-        & p{
-            font-size: 16px;
-        }
-    }
-}
-
 
 
 /* TABLET */
 @media (min-width: 768px){
-   
+    span#burguer{
+        display:none;
+    }
+
     header{
         font-size: 16px;
 
         & h1{
             font-size: 50px;
             margin: 0px auto 5px auto;
-        }
-        #burguer{
-            display:none;
-        }
-        }
+        }}
         
         main{ 
             & h2{
-            font-size: 25px;
+            font-size: 30px;
         }
         & p{
             font-size: 20px;
         }}
 
-
+        
         menu{
-            max-width: 1200px;
             margin: auto;
             & ul{
                 display: inline-flex;
@@ -86,35 +61,21 @@
 /* ------------ PC ----------- */
 @media (min-width: 992px) {
     
-     header{
-        font-size: 22px;
-        
-        & h1 {
-        font-size: 50px;
-        margin: 0px auto 10px auto;
-        }
-
-        main{    
-            & h2{
-                font-size: 29px;
-            }
-        }
-}}
-
-
-
-
-/*----------- TVS--------- */
-
-@media (min-width: 1200px) {
-
-    main{
+    main{ 
+        max-width: 1200px;
         & h2{
-            font-size: 30px;
+        font-size: 2.5em;
+        }
+        & p{
+            font-size: 20px;
+        }}
+
+        menu{
+            & li{
+                padding: 15px 25px;
+            }
         }
     }
 
-
-}
     
 
