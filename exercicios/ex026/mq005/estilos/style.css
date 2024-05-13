@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgba(211, 211, 211, 0.771);
+}
+
+
+/* HEADER */
+header{
+    
+    text-align: center;
+    font-family: poppins, sans-serif;
+    
+    color: black;
+    background-color: lightgrey;
+
+}
+
+/* HAMBURGUINHO */
+span#burguer{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burguer:hover{
+   background-color: white;
+   color: black;
+}
+
+
+/* LISTA HEADER */
+menu{
+    display: block;
+}
+
+li > a{
+    color: black;
+    text-decoration: none;
+}
+ul > li{
+    background-color: rgba(112, 112, 112, 0.633); 
+    border: 1.5px solid black;
+    color: white;
+
+    margin: 5px;
+    
+    font-family: poppins, sans-serif;
+
+    transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    list-style-type: none;
+}
+
+ul > li:hover{
+    background-color: rgba(0, 0, 0, 0.59);
+    color: white;
+}
+
+ul > li:active{
+    background-color: rgb(70, 70, 70);
+    color: white;
+
+}
+/* FIM HEADER */
+
+
+
+/* INICIO MAIN */
+main{
+    width: 80vw;
+    margin: 10px auto;
+    padding: 20px;
+
+    border-radius: 10px;
+    background-color: white;
+
+    
+    & h2{
+        font-family: poppins, sans-serif;
+        text-decoration: underline;
+        text-indent: 30px;
+    }
+    & p{
+        text-align: justify;
+        text-indent: 30px;
+        padding: 10px;
+    }
+}
+/* FIM DO MAIN */

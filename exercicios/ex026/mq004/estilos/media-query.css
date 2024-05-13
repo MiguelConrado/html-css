@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* TODAS AS DEMAIS MEDIAS */
+
+/* typical  Device breackpoints*/
+
+@media print {
+    body{
+        background: url(../imagem/icon-print.png);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    main{
+        border: 3px solid black; 
+        & h1{
+            text-shadow: none;
+            color: black;
+        }
+    }
+    main::after{
+        content: 'ESSE SITE FOI FEITA PELO MIGUEL CONRADO';
+        text-decoration: overline;
+    }
+}
+
+
+
+/* tablet */
+@media (min-width: 769px) { 
+    body{
+        background: url(../imagem/back-tablet.jpg);
+    }
+   
+    #phone{display: none;}
+    #tablet{display: block;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+}
+
+
+
+/* DESCKTOP */
+@media (min-width: 992px){
+    
+    body{
+        background: url(../imagem/back-pc.jpg);
+    }
+    
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: block;}
+    #tv{display: none;}
+}
+
+
+
+
+/* TELAS GRANDES */
+@media (min-width: 1200px) {
+    body{
+        background: url(../imagem/back-tv.jpg);
+    }
+    main{
+        padding: 30px;
+    }
+
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: block;}
+}
