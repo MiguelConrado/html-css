@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@media screen and (width <= 768px) {
+    #foto-login{
+        display: block;
+
+        height: 140px;
+        width: 60vw;
+        margin-bottom: 0px;
+        padding: 10px;
+
+        border-radius: 20px 20px 0px 0px;
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.582);
+    }
+
+    div#login-container{
+        width: 60vw;
+        margin-top: 0px;
+        padding: 10px;
+
+        border-radius: 00px 0px 20px 20px;
+        transition: all .1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        & p{
+            margin: 10px 0px;
+            font-size: 15px;
+        }
+        & h1{
+            margin: 0px;
+            font-size: 30px;
+        }
+    }
+
+    .container-login-all{
+        display: block;
+    }
+}
+
+
+@media screen and (width >= 769px) and (width <= 1200px) {
+    div#login-container{
+        border-radius: 00px 20px 20px 0px;
+
+        & p{
+            margin: 10px 0px;
+            font-size: 15px;
+        }
+        & h1{
+            margin: 0px;
+            font-size: 35px;
+        }
+
+    }
+
+    .cadastro-info{
+        margin: 7px 0px;
+        & input{
+            margin: 2px 0px;
+            padding: 7px;
+            width: 100%;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+
+
+    #foto-login{
+        transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        order: initial;
+        border-radius:20px 00px 00px 20px;
+    }
+}
+
