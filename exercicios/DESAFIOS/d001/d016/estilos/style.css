@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+    --preto:#0D070B;
+    --marrom-escuro:#592E1E;
+    --marrom-claro:#8C5D42;
+    --bege:#BFA584;
+    --branco:#D9D1B8;
+}
+
+*{
+    font-family: poppins, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: var(--marrom-claro);
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{    
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.651);
+}
+
+div#imagem{
+    display: block;
+    background-image: url(../imagem/login-coffe-shop.jpg);
+    background-size: cover;
+
+    height: 150px;
+}
+
+div#formulario{
+    display: block;
+    padding: 10px;
+
+}
